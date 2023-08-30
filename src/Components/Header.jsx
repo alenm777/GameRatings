@@ -18,7 +18,7 @@ const Header = () => {
             <input
              type='text'
               placeholder='Buscar juegos'
-               className=' px-2 bg-transparent dark:bg-cyan-500 outline-none'
+               className=' px-2 bg-transparent  outline-none'
                 />
         </div>
         <div>
@@ -26,11 +26,11 @@ const Header = () => {
             <HiMoon
              className='text-[35px] bg-slate-200
             text-black p-1 rounded-full cursor-pointer'
-             onClick={() => setTheme ('dark')} 
+             onClick={() => {setTheme ('dark'); localStorage.setItem('theme', 'dark')}} 
              /> 
              ) : ( 
              <HiSun
-             onClick={() => setTheme ('light')}
+             onClick={() => {setTheme ('light'); localStorage.setItem('theme', 'light')}}
             className='text-[35px] bg-slate-200
             text-black p-1 rounded-full cursor-pointer' 
              
