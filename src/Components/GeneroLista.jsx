@@ -25,8 +25,8 @@ const GeneroLista = () => {
              group rounded-lg hover:dark:bg-gray-600
              ${activeIndex==index?"bg-gray-300 dark:bg-gray-600": null}`}>
         <img src={item.image_background}
-         className='w-[40px] h-[40px] object-cover rounded-lg group-hover:scale-105 transition-all ease-out duration-300' />
-<h3 className='dark:text-white text-[18px] group-hover:font-bold '>{item.name}</h3>
+         className={`w-[40px] h-[40px] object-cover rounded-lg group-hover:scale-105 transition-all ease-out duration-300 ${activeIndex == index?"scale-105 ":null}`} />
+<h3 className={`dark:text-white text-[18px] group-hover:font-bold transition-all ease-out duration-300 ${activeIndex == index?"font-bold":null}`}>{item.name}</h3>
             </div>
         ))}
     </div>
