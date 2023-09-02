@@ -11,7 +11,6 @@ const GeneroLista = () => {
     }, [])
     const getGeneroLista= () => {
         GlobalApi.getGeneroLista.then((resp) => {
-            console.log(resp.data.results);
             setGeneroLista(resp.data.results);
         })
     }
