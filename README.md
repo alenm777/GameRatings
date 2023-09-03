@@ -1,8 +1,10 @@
-# React + Vite
+# Gameratings - Plataforma de Clasificación de Juegos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una plataforma web llamada Gameratings, desarrollada con React y estilizada con Tailwind CSS. Gameratings utiliza una API para ofrecer clasificaciones de juegos en diversas categorías, como las secciones más populares y los juegos más jugados. Explora y descubre los mejores juegos según tus preferencias!
 
-Currently, two official plugins are available:
+## Características principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clasificación de juegos por popularidad.
+- Clasificación de juegos por número de jugadores.
+- Interfaz de usuario intuitiva y atractiva.
+- Integración con una API de juegos actualizada en tiempo real.
